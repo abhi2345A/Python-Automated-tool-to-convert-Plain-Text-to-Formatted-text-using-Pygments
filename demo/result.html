@@ -1,0 +1,29 @@
+<table class="sourcetable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"><pre style="line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14</pre></div></td><td class="code"><div class="source" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #204a87; font-weight: bold">class</span> <span style="color: #000000">Sum</span><span style="color: #000000; font-weight: bold">:</span>
+    <span style="color: #204a87; font-weight: bold">def</span> <span style="color: #000000">__init__</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #3465a4">self</span><span style="color: #000000; font-weight: bold">,</span><span style="color: #000000">num1</span><span style="color: #000000; font-weight: bold">,</span><span style="color: #000000">num2</span><span style="color: #000000; font-weight: bold">):</span>
+        <span style="color: #3465a4">self</span><span style="color: #ce5c00; font-weight: bold">.</span><span style="color: #000000">num1</span><span style="color: #ce5c00; font-weight: bold">=</span><span style="color: #000000">num1</span>
+        <span style="color: #3465a4">self</span><span style="color: #ce5c00; font-weight: bold">.</span><span style="color: #000000">num2</span><span style="color: #ce5c00; font-weight: bold">=</span><span style="color: #000000">num2</span>
+    <span style="color: #204a87; font-weight: bold">def</span> <span style="color: #000000">sum</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #3465a4">self</span><span style="color: #000000; font-weight: bold">):</span>
+        <span style="color: #204a87; font-weight: bold">print</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">&#39;Sum of numbers is:{}&#39;</span><span style="color: #ce5c00; font-weight: bold">.</span><span style="color: #000000">format</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #3465a4">self</span><span style="color: #ce5c00; font-weight: bold">.</span><span style="color: #000000">num1</span><span style="color: #ce5c00; font-weight: bold">+</span><span style="color: #3465a4">self</span><span style="color: #ce5c00; font-weight: bold">.</span><span style="color: #000000">num2</span><span style="color: #000000; font-weight: bold">))</span>
+
+
+<span style="color: #204a87; font-weight: bold">if</span> <span style="color: #000000">__name__</span><span style="color: #ce5c00; font-weight: bold">==</span><span style="color: #4e9a06">&#39;__main__&#39;</span><span style="color: #000000; font-weight: bold">:</span>
+    <span style="color: #8f5902; font-style: italic"># Use input function to input the values but by default it inputs a string,so typecast the values to int</span>
+    <span style="color: #000000">num1</span> <span style="color: #ce5c00; font-weight: bold">=</span> <span style="color: #204a87">int</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #204a87">input</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">&#39;Enter First Number:&#39;</span><span style="color: #000000; font-weight: bold">))</span>
+    <span style="color: #000000">num2</span> <span style="color: #ce5c00; font-weight: bold">=</span> <span style="color: #204a87">int</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #204a87">input</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #4e9a06">&#39;Enter Second Number:&#39;</span><span style="color: #000000; font-weight: bold">))</span>
+    <span style="color: #000000">obj</span> <span style="color: #ce5c00; font-weight: bold">=</span> <span style="color: #000000">Sum</span><span style="color: #000000; font-weight: bold">(</span><span style="color: #000000">num1</span><span style="color: #000000; font-weight: bold">,</span><span style="color: #000000">num2</span><span style="color: #000000; font-weight: bold">)</span>
+    <span style="color: #000000">obj</span><span style="color: #ce5c00; font-weight: bold">.</span><span style="color: #000000">sum</span><span style="color: #000000; font-weight: bold">()</span>
+</pre></div>
+</td></tr></table>
