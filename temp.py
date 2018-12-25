@@ -13,8 +13,3 @@ if __name__=='__main__':
     num2 = int(input('Enter Second Number:'))
     obj = Sum(num1,num2)
     obj.sum()
-
-
-
-
-
