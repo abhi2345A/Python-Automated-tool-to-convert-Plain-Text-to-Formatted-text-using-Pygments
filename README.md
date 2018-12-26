@@ -20,22 +20,28 @@ cd Python-Automated-tool-to-convert-Plain-Text-to-Formatted-text-using-Pygments/
 * Run the __main__.py file
 
 ```
-apoorv@apoorv:~python __main__.py
-Enter the file's name which is to be formatted :temp.py
+Enter your choice
+1. Demo (work with default file)
+2. Format your own file
+3. Exit
+:1
+Default file temp.py is being used. 
+
+Enter the Output file name (Previous Data will be overwritten!) : myfile
 
 Press
 ->1 to insert line Numbers
 ->Any other key for not : 1
 
 Specify a style from this list :
-['autumn', 'borland', 'bw', 'colorful', 'default', 'emacs',
- 'fruity', 'manni', 'monokai', 'murphy', 'native', 'pastie',
- 'rrt', 'tango', 'trac', 'vim' ,'friendly', 'perldoc']
-tango
+['autumn', 'borland', 'bw', 'colorful', 'default', 'emacs', 'fruity', 'manni', 'monokai', 'murphy', 'native', 'pastie', 'rrt', 'tango', 'trac', 'vim', 'friendly', 'perldoc']
+fruity
 
-Formatted File is generated as- result.html
+Formatted File is generated as - myfile.html
+Conversion done successfully. Opening it now!
+
 ```
 
 The result might look something like this :
 
-![screenshot](https://i.imgur.com/9HbQB4L.png)
+![screenshot](https://i.imgur.com/FuiyhPU.png)
