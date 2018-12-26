@@ -18,6 +18,7 @@ def main():
         var = obj.line_numbers()
         styl = obj.select_style()
         obj._plain_text_to_formatted_text__conversion(code, var, styl) #Private method call will require class name
+        print("Conversion done successfully. Opening it now!")
         webbrowser.get().open('file://' + os.path.realpath('demo/'+ outfil + '.html'))
 
     elif ch==2:
@@ -28,6 +29,7 @@ def main():
         var = obj.line_numbers()
         styl = obj.select_style()
         obj._plain_text_to_formatted_text__conversion(code, var, styl) #Private method call will require class name
+        print("Conversion done successfully. Opening it now!")
         webbrowser.get().open('file://' + os.path.realpath('demo/'+ outfil + '.html'))
 
     else:
