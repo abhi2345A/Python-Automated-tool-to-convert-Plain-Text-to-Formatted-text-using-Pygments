@@ -17,9 +17,11 @@ git clone https://github.com/apoorvpatne10/Python-Automated-tool-to-convert-Plai
 cd Python-Automated-tool-to-convert-Plain-Text-to-Formatted-text-using-Pygments/
 ```
 
-* Run the __main__.py file
+* Run the __ main __ .py file
 
 ```
+apoorv@apoorv:~ python __main__.py
+
 Enter your choice
 1. Demo (work with default file)
 2. Format your own file
