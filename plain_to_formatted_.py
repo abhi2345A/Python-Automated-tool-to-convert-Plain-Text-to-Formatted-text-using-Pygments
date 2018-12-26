@@ -5,8 +5,8 @@ import sys
 
 class plain_text_to_formatted_text:
     def __init__(self ,inpfil ,outfil):
-        self.__inpfil =inpfil  # inpfil is a private data member ( __ before name specifies private)
-        self.__outfil =outfil  # outfil is a private data member ( __ before name specifies private)
+        self.__inpfil = inpfil  # inpfil is a private data member ( __ before name specifies private)
+        self.__outfil = outfil  # outfil is a private data member ( __ before name specifies private)
 
     def file_(self):
 
@@ -18,7 +18,7 @@ class plain_text_to_formatted_text:
 
         with rf:
             code = rf.read()
-        rf.close()
+
         return code
 
     def line_numbers(self):
@@ -47,6 +47,7 @@ class plain_text_to_formatted_text:
         formatter = HtmlFormatter(linenos=var, cssclass='source', style=styl)
         formatter.noclasses = True
         with open("demo/" + self.__outfil, "w") as f:
+            f.write("<i> ------- Formatted the code successfully! ------- </i><br>")
             result = highlight(code, lexer, formatter, f)
         print(f"\nFormatted File is generated as- {self.__outfil}")
 

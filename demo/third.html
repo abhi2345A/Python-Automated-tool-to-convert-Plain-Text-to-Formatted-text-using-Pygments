@@ -1,0 +1,29 @@
+<i> ------- Formatted the code successfully! ------- </i><br><table class="sourcetable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"><pre style="line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14</pre></div></td><td class="code"><div class="source" style="background: #ffffff"><pre style="line-height: 125%"><span></span><span style="font-weight: bold">class</span> <span style="font-weight: bold">Sum</span>:
+    <span style="font-weight: bold">def</span> __init__(self,num1,num2):
+        self.num1=num1
+        self.num2=num2
+    <span style="font-weight: bold">def</span> sum(self):
+        <span style="font-weight: bold">print</span>(<span style="font-style: italic">&#39;Sum of numbers is:{}&#39;</span>.format(self.num1+self.num2))
+
+
+<span style="font-weight: bold">if</span> __name__==<span style="font-style: italic">&#39;__main__&#39;</span>:
+    <span style="font-style: italic"># Use input function to input the values but by default it inputs a string,so typecast the values to int</span>
+    num1 = int(input(<span style="font-style: italic">&#39;Enter First Number:&#39;</span>))
+    num2 = int(input(<span style="font-style: italic">&#39;Enter Second Number:&#39;</span>))
+    obj = Sum(num1,num2)
+    obj.sum()
+</pre></div>
+</td></tr></table>
