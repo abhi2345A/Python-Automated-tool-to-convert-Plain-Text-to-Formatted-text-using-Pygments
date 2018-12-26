@@ -18,6 +18,7 @@ cd Python-Automated-tool-to-convert-Plain-Text-to-Formatted-text-using-Pygments/
 ```
 
 * Run the __main__.py file
+
 ```
 apoorv@apoorv:~python __main__.py
 Enter the file's name which is to be formatted :temp.py
