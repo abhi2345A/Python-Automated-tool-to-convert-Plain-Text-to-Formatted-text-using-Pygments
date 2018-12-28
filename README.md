@@ -46,4 +46,4 @@ Conversion done successfully. Opening it now!
 
 The result might look something like this :
 
-![screenshot](https://i.imgur.com/FuiyhPU.png)
+![capture](https://user-images.githubusercontent.com/37475805/50522374-c381c000-0af0-11e9-8afc-d1285d77862e.PNG)
