@@ -37,9 +37,9 @@ Press
 
 Specify a style from this list :
 ['autumn', 'borland', 'bw', 'colorful', 'default', 'emacs', 'fruity', 'manni', 'monokai', 'murphy', 'native', 'pastie', 'rrt', 'tango', 'trac', 'vim', 'friendly', 'perldoc']
-fruity
+vim
 
-Formatted File is generated as - myfile.html
+Formatted File is generated as- myfile.html
 Conversion done successfully. Opening it now!
 
 ```
