@@ -6,7 +6,7 @@ autumn','borland','bw','colorful','default','emacs','friendly','fruity','manni',
 
 ### Working
 
-* Open a terminal window and paste this :
+* Open a terminal window and paste this now:
 ```
 git clone https://github.com/apoorvpatne10/Python-Automated-tool-to-convert-Plain-Text-to-Formatted-text-using-Pygments
 ```
@@ -27,7 +27,7 @@ Enter your choice
 2. Format your own file
 3. Exit
 :1
-Default file temp.py is being used. 
+Default file temp.py is being used.
 
 Enter the Output file name (Previous Data will be overwritten!) : myfile
 
@@ -37,13 +37,13 @@ Press
 
 Specify a style from this list :
 ['autumn', 'borland', 'bw', 'colorful', 'default', 'emacs', 'fruity', 'manni', 'monokai', 'murphy', 'native', 'pastie', 'rrt', 'tango', 'trac', 'vim', 'friendly', 'perldoc']
-fruity
+vim
 
-Formatted File is generated as - myfile.html
+Formatted File is generated as- myfile.html
 Conversion done successfully. Opening it now!
 
 ```
 
 The result might look something like this :
 
-![screenshot](https://i.imgur.com/FuiyhPU.png)
+![capture](https://user-images.githubusercontent.com/37475805/50522374-c381c000-0af0-11e9-8afc-d1285d77862e.PNG)

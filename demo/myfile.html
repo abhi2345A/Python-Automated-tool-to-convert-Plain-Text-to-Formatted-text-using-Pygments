@@ -11,6 +11,7 @@
 11
 12
 13
+<<<<<<< HEAD
 14</pre></div></td><td class="code"><div class="source" style="background: #111111"><pre style="line-height: 125%"><span></span><span style="color: #fb660a; font-weight: bold">class</span> <span style="color: #ffffff">Sum:</span>
     <span style="color: #fb660a; font-weight: bold">def</span> <span style="color: #ff0086; font-weight: bold">__init__</span><span style="color: #ffffff">(self,num1,num2):</span>
         <span style="color: #ffffff">self.num1=num1</span>
@@ -25,5 +26,21 @@
     <span style="color: #ffffff">num2</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">int(input(</span><span style="color: #0086d2">&#39;Enter Second Number:&#39;</span><span style="color: #ffffff">))</span>
     <span style="color: #ffffff">obj</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">Sum(num1,num2)</span>
     <span style="color: #ffffff">obj.sum()</span>
+=======
+14</pre></div></td><td class="code"><div class="source" style="background: #000000"><pre style="line-height: 125%"><span></span><span style="color: #cdcd00">class</span> <span style="color: #00cdcd">Sum</span><span style="color: #cccccc">:</span>
+    <span style="color: #cdcd00">def</span> <span style="color: #cccccc">__init__(</span><span style="color: #cd00cd">self</span><span style="color: #cccccc">,num1,num2):</span>
+        <span style="color: #cd00cd">self</span><span style="color: #3399cc">.</span><span style="color: #cccccc">num1</span><span style="color: #3399cc">=</span><span style="color: #cccccc">num1</span>
+        <span style="color: #cd00cd">self</span><span style="color: #3399cc">.</span><span style="color: #cccccc">num2</span><span style="color: #3399cc">=</span><span style="color: #cccccc">num2</span>
+    <span style="color: #cdcd00">def</span> <span style="color: #cccccc">sum(</span><span style="color: #cd00cd">self</span><span style="color: #cccccc">):</span>
+        <span style="color: #cdcd00">print</span><span style="color: #cccccc">(</span><span style="color: #cd0000">&#39;Sum of numbers is:{}&#39;</span><span style="color: #3399cc">.</span><span style="color: #cccccc">format(</span><span style="color: #cd00cd">self</span><span style="color: #3399cc">.</span><span style="color: #cccccc">num1</span><span style="color: #3399cc">+</span><span style="color: #cd00cd">self</span><span style="color: #3399cc">.</span><span style="color: #cccccc">num2))</span>
+
+
+<span style="color: #cdcd00">if</span> <span style="color: #00cdcd">__name__</span><span style="color: #3399cc">==</span><span style="color: #cd0000">&#39;__main__&#39;</span><span style="color: #cccccc">:</span>
+    <span style="color: #000080"># Use input function to input the values but by default it inputs a string,so typecast the values to int</span>
+    <span style="color: #cccccc">num1</span> <span style="color: #3399cc">=</span> <span style="color: #cd00cd">int</span><span style="color: #cccccc">(</span><span style="color: #cd00cd">input</span><span style="color: #cccccc">(</span><span style="color: #cd0000">&#39;Enter First Number:&#39;</span><span style="color: #cccccc">))</span>
+    <span style="color: #cccccc">num2</span> <span style="color: #3399cc">=</span> <span style="color: #cd00cd">int</span><span style="color: #cccccc">(</span><span style="color: #cd00cd">input</span><span style="color: #cccccc">(</span><span style="color: #cd0000">&#39;Enter Second Number:&#39;</span><span style="color: #cccccc">))</span>
+    <span style="color: #cccccc">obj</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">Sum(num1,num2)</span>
+    <span style="color: #cccccc">obj</span><span style="color: #3399cc">.</span><span style="color: #cccccc">sum()</span>
+>>>>>>> 3c5a767fa7c87e6a68db72989b20a44ce877096e
 </pre></div>
 </td></tr></table>
