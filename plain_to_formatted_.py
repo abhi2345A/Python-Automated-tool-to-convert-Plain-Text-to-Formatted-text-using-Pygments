@@ -21,22 +21,20 @@ class plain_text_to_formatted_text:
 
         return code
 
-    def line_numbers(self):
-        flag = input('\nPress\n->1 to insert line Numbers\n->Any other key for not : ')
+    def line_numbers(self, flag='1'):
         if flag == '1':
             return True
         else:
             return False
 
 
-    def select_style(self):
+    def select_style(self, styl='colorful'):
 
         style_list= ['autumn', 'borland', 'bw', 'colorful', 'default', 'emacs',
                      'fruity', 'manni', 'monokai', 'murphy', 'native', 'pastie',
                      'rrt', 'tango', 'trac', 'vim' ,'friendly', 'perldoc']
 
         while True:
-            styl = input(f"\nSpecify a style from this list :\n{style_list}\n")
             if styl in style_list:
                 return styl
             else:

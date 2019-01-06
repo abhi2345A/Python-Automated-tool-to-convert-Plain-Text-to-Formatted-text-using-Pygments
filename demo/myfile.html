@@ -1,0 +1,29 @@
+<i> ------- Formatted the code successfully! ------- </i><br><table class="sourcetable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"><pre style="line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14</pre></div></td><td class="code"><div class="source" style="background: #111111"><pre style="line-height: 125%"><span></span><span style="color: #fb660a; font-weight: bold">class</span> <span style="color: #ffffff">Sum:</span>
+    <span style="color: #fb660a; font-weight: bold">def</span> <span style="color: #ff0086; font-weight: bold">__init__</span><span style="color: #ffffff">(self,num1,num2):</span>
+        <span style="color: #ffffff">self.num1=num1</span>
+        <span style="color: #ffffff">self.num2=num2</span>
+    <span style="color: #fb660a; font-weight: bold">def</span> <span style="color: #ff0086; font-weight: bold">sum</span><span style="color: #ffffff">(self):</span>
+        <span style="color: #fb660a; font-weight: bold">print</span><span style="color: #ffffff">(</span><span style="color: #0086d2">&#39;Sum of numbers is:{}&#39;</span><span style="color: #ffffff">.format(self.num1+self.num2))</span>
+
+
+<span style="color: #fb660a; font-weight: bold">if</span> <span style="color: #fb660a">__name__</span><span style="color: #ffffff">==</span><span style="color: #0086d2">&#39;__main__&#39;</span><span style="color: #ffffff">:</span>
+    <span style="color: #008800; font-style: italic; background-color: #0f140f"># Use input function to input the values but by default it inputs a string,so typecast the values to int</span>
+    <span style="color: #ffffff">num1</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">int(input(</span><span style="color: #0086d2">&#39;Enter First Number:&#39;</span><span style="color: #ffffff">))</span>
+    <span style="color: #ffffff">num2</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">int(input(</span><span style="color: #0086d2">&#39;Enter Second Number:&#39;</span><span style="color: #ffffff">))</span>
+    <span style="color: #ffffff">obj</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">Sum(num1,num2)</span>
+    <span style="color: #ffffff">obj.sum()</span>
+</pre></div>
+</td></tr></table>
